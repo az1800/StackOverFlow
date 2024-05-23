@@ -1,0 +1,125 @@
+body {
+}
+#allQ {
+  position: relative;
+  color: black;
+  left: 400px;
+  top: -150px;
+}
+#numberOfQ {
+  position: relative;
+  font-size: 20px;
+  left: 400px;
+  top: -50px;
+}
+#choises_of_sorting {
+  height: 42px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid #ff9900;
+  position: relative;
+  left: 950px;
+  top: -150px;
+}
+#QCard {
+  height: 130px;
+  width: 630px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  position: relative;
+  left: 400px;
+  margin-bottom: 10px;
+}
+#votes {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+#answers {
+  font-size: 16px;
+  margin-top: 4px;
+  border: 2px solid green;
+  width: 75px;
+  text-align: center;
+  padding-top: 5px;
+  height: 20px;
+  color: #fff;
+  background-color: hsla(120, 100%, 25%, 0.75);
+}
+#Rate {
+  font-size: 17px;
+  position: absolute;
+  top: 21px;
+  right: 1px;
+}
+#star_icon {
+  height: 13px;
+  margin-left: 5px;
+}
+#first_Section {
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+#Question_title {
+  font-size: 24px;
+  color: blueviolet;
+  overflow-y: hidden;
+  max-width: 500px;
+}
+#Question_Discription {
+  position: relative;
+  top: -5px;
+  left: 92px;
+  max-width: 500px;
+  margin-top: -2px;
+  height: 61px;
+  overflow-y: scroll;
+  max-width: 500px;
+}
+#askButton {
+  height: 42px;
+  font-size: 14px;
+  width: 100px;
+  background-color: #fff;
+  color: hsla(271, 76%, 53%, 0.705);
+  border: 1px solid hsl(271, 76%, 53%);
+  border-radius: 5px;
+  position: relative;
+  top: -250px;
+  left: 950px;
+}
+#askButton:hover {
+  background-color: hsla(271, 76%, 53%, 0.68);
+}
+#askButton:active {
+  background-color: hsla(271, 76%, 53%, 0.5);
+}
+.filterBtn {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #0026ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.programming_tips {
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  background-color: rgba(225, 225, 211, 0.827);
+  height: 900px;
+  width: 300px;
+  border: 3px black solid;
+  border-radius: 5px;
+}
+#headerPT {
+  margin-left: 5px;
+}
+#editbuttonn {
+  position: absolute;
+  top: 240px;
+  left: 50px;
+  height: 25px;
+}

@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #f5f5dc;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  width: 100%;
+}
+input[type="text"] {
+  height: 25px;
+  width: 250px;
+  border: 2px solid blueviolet;
+  border-radius: 6px;
+}
+a {
+  margin-left: 23px;
+  margin-right: 23px;
+  text-decoration: none;
+  color: black;
+}
+img {
+  height: 40px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+#Login {
+  height: 31px;
+  background-color: #fff;
+  color: hsla(271, 76%, 53%, 0.705);
+  border: 1px solid hsl(271, 76%, 53%);
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#Login:hover {
+  background-color: hsla(271, 76%, 53%, 0.68);
+}
+#Login:active {
+  background-color: hsla(271, 76%, 53%, 0.5);
+}
+#Signin {
+  height: 31px;
+  background-color: hsla(271, 76%, 53%, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+#Signin:hover {
+  background-color: hsla(271, 76%, 53%, 0.5);
+}
+#Signin:active {
+  background-color: hsla(271, 76%, 53%, 0.4);
+}
+#Signout {
+  height: 31px;
+  background-color: #fff;
+  color: hsla(271, 76%, 53%, 0.705);
+  border: 1px solid hsl(271, 76%, 53%);
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#Signout:hover {
+  background-color: hsla(271, 76%, 53%, 0.68);
+}
+#Signout:active {
+  background-color: hsla(271, 76%, 53%, 0.5);
+}
+#Search {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#humbergericon {
+  background-image: url("./pics/menu.png");
+  height: 40px;
+  width: 40px;
+  border: none;
+  margin-right: 40px;
+  position: relative;
+  top: 13px;
+  cursor: pointer;
+}
+#SOFLogo {
+  position: relative;
+  top: 15px;
+  height: 45px;
+}
+h2:hover {
+  cursor: pointer;
+}
+#icon {
+  height: 20px;
+}
+#container {
+  height: 150px;
+  width: 300px;
+}
+.card {
+  position: relative;
+  transition: transform 1550ms;
+  transform-style: preserve-3d;
+}
+
+.front {
+  width: 315px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgb(185, 172, 172);
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+.back {
+  height: 150px;
+  width: 350px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.card.active {
+  transform: perspective(350px) rotateY(180deg);
+}
+#coding {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 85%;
+  width: 85%;
+  top: 130px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+#black {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.683);
+  height: 100%;
+  width: 100%;
+}
+.white_text {
+  color: rgb(255, 255, 255);
+}
+.num_of_Q {
+  position: absolute;
+  top: 400px;
+  left: 25%;
+}
+.num_of_Users {
+  position: absolute;
+  top: 400px;
+  left: 70%;
+}
+.h22 {
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 0.83em;
+  margin-top: 0.83em;
+  margin-right: 0;
+  margin-left: 0;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+#search_form {
+  display: inline;
+}
+/* this is for header only */
+
+.frontH {
+  width: 315px;
+  height: 210px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgb(185, 172, 172);
+}
+.h22h {
+  display: block;
+  font-size: 1.5em;
+  margin-before: 0.83em;
+  margin-after: 0.83em;
+  margin-start: 0;
+  margin-end: 0;
+  font-weight: bold;
+  margin-bottom: 42px;
+  cursor: pointer;
+}
+
+.purple_button {
+  height: 31px;
+  background-color: hsla(271, 76%, 53%, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.purple_button:hover {
+  background-color: hsla(271, 76%, 53%, 0.5);
+}
+.purple_button:active {
+  background-color: hsla(271, 76%, 53%, 0.4);
+}
+
+.white_button {
+  height: 31px;
+  background-color: #fff;
+  color: hsla(271, 76%, 53%, 0.705);
+  border: 1px solid hsl(271, 76%, 53%);
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.white_button:hover {
+  background-color: hsla(271, 76%, 53%, 0.68);
+}
+.white_button:active {
+  background-color: hsla(271, 76%, 53%, 0.5);
+}

@@ -1,0 +1,60 @@
+#password_field {
+  height: 40px;
+  width: 350px;
+  border: 2px solid blueviolet;
+  border-radius: 6px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 190px;
+}
+#username_field {
+  height: 40px;
+  width: 350px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 130px;
+}
+#login_signin_form {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 500px;
+  background-color: #f4efef;
+  border: 3px solid blueviolet;
+  border-radius: 20px;
+}
+#submit_btn {
+  width: 149px;
+  height: 46px;
+  background-color: hsla(257, 64%, 56%, 0.875);
+  position: absolute;
+  top: 300px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-size: 25px;
+  color: white;
+}
+#submit_btn:hover {
+  background-color: hsla(257, 64%, 56%, 0.765);
+}
+#submit_btn:active {
+  background-color: hsla(257, 64%, 56%, 0.655);
+  cursor: pointer;
+}
+#signup_login {
+  font-size: 45px;
+  color: blueviolet;
+  text-align: center;
+}
